@@ -56,9 +56,9 @@ PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1003777219342'))          # Pre
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-100').split()]
 
 # Support Group & Request Channel
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-100')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1003498797913')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+vjVW60fkoZY5NDE1')
 
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-100')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
