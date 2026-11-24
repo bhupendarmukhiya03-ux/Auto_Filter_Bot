@@ -60,13 +60,13 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1003498797913')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+vjVW60fkoZY5NDE1')
 
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-100')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1003498797913')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 
 # Force Subscription Channels (Users must join these before using the bot)
-auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-100")
-auth_channels = environ.get("AUTH_CHANNELS", "-100")
+auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1004409101713")
+auth_channels = environ.get("AUTH_CHANNELS", "-1004436782280")
 AUTH_REQ_CHANNELS = [int(ch) for ch in auth_req_channels.split() if ch and id_pattern.match(ch)]
 AUTH_CHANNELS = [int(ch) for ch in auth_channels.split() if ch and id_pattern.match(ch)]
 
