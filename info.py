@@ -28,8 +28,8 @@ def is_enabled(value, default: bool = False) -> bool:
 # 1. BOT CREDENTIALS & SESSION
 # ==============================================================================
 # Telegram API credentials from https://my.telegram.org
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '37435738'))
+API_HASH = environ.get('API_HASH', '490102677fc948f2dee0cd61ee87b30a')
 
 # Bot token obtained from @BotFather
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
@@ -44,7 +44,7 @@ name = str(environ.get('name', 'DREAMXBOTZ'))
 # 2. ADMINS, CHANNELS & PERMISSIONS
 # ==============================================================================
 # Telegram user IDs of bot administrators (space-separated in .env)
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '634637418').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8746186873').split()]
 
 # Channels to auto-index files from (Bot must be an admin in these channels)
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-100').split()]
