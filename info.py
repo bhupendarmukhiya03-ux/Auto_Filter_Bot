@@ -181,13 +181,13 @@ BAD_WORDS = {
 # 6. MOVIE UPDATES & POSTER NOTIFICATIONS
 # ==============================================================================
 MOVIE_UPDATE_NOTIFICATION = is_enabled(environ.get('MOVIE_UPDATE_NOTIFICATION', "False"), False)
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-100'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1004436782280'))
 DREAMXBOTZ_IMAGE_FETCH = is_enabled(environ.get('DREAMXBOTZ_IMAGE_FETCH', "True"), True)
 LINK_PREVIEW = is_enabled(environ.get('LINK_PREVIEW', "False"), False)
 ABOVE_PREVIEW = is_enabled(environ.get('ABOVE_PREVIEW', "True"), True)
 
 # The Movie Database (TMDB) API Key
-TMDB_API_KEY = environ.get('TMDB_API_KEY', '')
+TMDB_API_KEY = environ.get('TMDB_API_KEY', 'cbea51d46583c6e441be0e8df232cf07')
 TMDB_POSTER = is_enabled(environ.get('TMDB_POSTER', "True"), True)
 TMDB_ON_SEARCH = is_enabled(environ.get('TMDB_ON_SEARCH', "False"), False)
 LANDSCAPE_POSTER = is_enabled(environ.get('LANDSCAPE_POSTER', "True"), True)
@@ -197,13 +197,13 @@ LANDSCAPE_POSTER = is_enabled(environ.get('LANDSCAPE_POSTER', "True"), True)
 # 7. SHORTENERS & VERIFICATION SYSTEM
 # ==============================================================================
 IS_VERIFY = is_enabled(environ.get('IS_VERIFY', 'False'), False)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-100'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '--1003777219342'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
 # Tutorial Links
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/dreamxbotz")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/dreamxbotz")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/dreamxbotz")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/+-y4pCm6y1a9jNDY9")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+-y4pCm6y1a9jNDY9")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+-y4pCm6y1a9jNDY9")
 
 # Primary Shortener
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "")
