@@ -196,7 +196,7 @@ LANDSCAPE_POSTER = is_enabled(environ.get('LANDSCAPE_POSTER', "True"), True)
 # ==============================================================================
 # 7. SHORTENERS & VERIFICATION SYSTEM
 # ==============================================================================
-IS_VERIFY = is_enabled(environ.get('IS_VERIFY', 'False'), False)
+IS_VERIFY = is_enabled(environ.get('IS_VERIFY', 'True'), False)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '--1003777219342'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
@@ -206,16 +206,16 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+-y4pCm6y1a9jNDY9")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+-y4pCm6y1a9jNDY9")
 
 # Primary Shortener
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "")
-SHORTENER_API = environ.get("SHORTENER_API", "")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "arolinks.com")
+SHORTENER_API = environ.get("SHORTENER_API", "f5ddee32b7c12f7be297c070ecec3c07c230ab48")
 
 # Secondary Shortener
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "arolinks.com")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "f5ddee32b7c12f7be297c070ecec3c07c230ab48")
 
 # Tertiary Shortener
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "arolinks.com")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "f5ddee32b7c12f7be297c070ecec3c07c230ab48")
 
 # Verification Time Gaps (in seconds)
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))       # 20 minutes
@@ -225,7 +225,7 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))   # 15 hours
 # ==============================================================================
 # 8. PREMIUM PLANS & PAYMENT CONFIGURATION
 # ==============================================================================
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/e419f801841c2ee3db0fc.jpg')
+QR_CODE = environ.get('QR_CODE', '')
 OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'ɴᴏ ᴀᴠᴀɪʟᴀʙʟᴇ ʀɪɢʜᴛ ɴᴏᴡ')
 
 # Stars / Premium Pricing Structure {Amount: "Duration"}
