@@ -35,9 +35,9 @@ API_HASH = environ.get('API_HASH', '490102677fc948f2dee0cd61ee87b30a')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # Pyrogram session name
-SESSION = environ.get('SESSION', 'dreamxbotz_search')
-SESSION_NAME = str(environ.get('SESSION_NAME', 'dreamXBotz'))
-name = str(environ.get('name', 'DREAMXBOTZ'))
+SESSION = environ.get('SESSION', 'happy2hubhd')
+SESSION_NAME = str(environ.get('SESSION_NAME', 'happy2hubhd'))
+name = str(environ.get('name', 'HAPPY2HUBHD'))
 
 
 # ==============================================================================
