@@ -269,7 +269,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/happy2hubhd">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/happy2hubhd">[ ᴅʀᴇᴀᴍxʙᴏᴛᴢ ]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/happy2hubhd">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/happy2hubhd">[ Happy2hubhd ]</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
